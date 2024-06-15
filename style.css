@@ -37,13 +37,29 @@ body {
 }
 
 .text-box {
-    
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 60px;
 }
 
 .heading-primary-main {
-
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 0.5em;
 }
 
 .heading-primary-sub {
-
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
 }
