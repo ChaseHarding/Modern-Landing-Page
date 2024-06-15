@@ -160,6 +160,17 @@ body {
     animation: ring 1.5s infinite;
 }
 
+.btn:hover {
+    color: #313133;
+    transform: translateY(-6px);
+    color: #fff;
+}
+
+.btn:hover::after {
+    animation: none;
+    display: none;
+}
+
 @keyframes ring{
     0% {
         width: 30px;
