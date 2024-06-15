@@ -17,7 +17,8 @@ body {
     height: 95vh;
     background-image: linear-gradient(to right, rgba(87, 199, 255, 0.8), rgba(0, 127, 190, 0.8) ) , url(../img/hero-img.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: center 90%;
+    background-repeat: no-repeat;
     position: relative;
 
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70vh);
